@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 <head>
+  <script type="text/javascript" src="./js/analytics.js"></script>
   <meta charset="UTF-8">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -10,8 +11,7 @@
   <meta name="Keywords" content="">
   <title>Paul Famiglietti</title>
   <link rel="icon" type="image/x-icon"  href="/img/favicon.ico">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/analytics.js"></script>
+  <link rel="stylesheet" href="./css/style.css">  
 </head>
 
 <body>
@@ -27,14 +27,14 @@
 
       <p>I’m Paul. Some years ago I started this little personal website. It's been a while, but I'm excited to revisit this space and share what I'm working on.</p>
 	 
-	 <p>Mostly I work with startups, helping bring the next wave of products to market and protecting big ideas, especially in the software, life sciences and healthcare fields.</p>
+	 <p>Mostly I work with startups, helping protect and bring to market the next wave of big ideas, especially in the software, life sciences and healthcare fields.</p>
 	 
 	 <p>I also enjoy building things, riding bikes and writing. You'll find related projects here.</p>
 	  
 
       <p>Cheers,<br>
         <img id="sig" src="./img/paul-signature.png" alt=""><br>
-        - Paul</p>
+   </p>
 
 
      <p>Get in touch:</p>
@@ -52,33 +52,33 @@
     </div>
     
     <div id="nav_bar">
-      <div id="language">
-        <div class="lang_link">
+      <div id="menu">
+        <div class="nav_link">
           <a href="https://www.fenwick.com/people/paul-famiglietti" class="active">Fenwick</a>
         </div>
-        <div class="lang_link">
+        <div class="nav_link">
           <a href="https://twitter.com/famiglietti">@famiglietti</a>
         </div>
-        <div class="lang_link">
-          <a href="https://www.linkedin.com/in/pjfamig/">linkedin</a>
+        <div class="nav_link">
+          <a href="https://www.linkedin.com/in/pjfamig/">LinkedIn</a>
         </div>
-        <div class="lang_link">
-          <a href="https://www.strava.com/athletes/97479">strava</a>
+        <div class="nav_link">
+          <a href="https://www.strava.com/athletes/97479">Strava</a>
+        </div>
+        <div class="nav_link">
+          <a href="https://github.com/pjfamig">GitHub</a>
         </div>
       </div>
     </div>
-
   </div>
 
-</body>
-
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(1000);
-  $('#thanks').prepend('Message received, thanks!');  
-  });
-</script>
-  
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
+	<script type="text/javascript">var submitted=false;</script>
+	<script type="text/javascript">
+	$('#gform').on('submit', function(e) {
+	  $('#gform *').fadeOut(1000);
+	  $('#confirmation').prepend('Message received, thanks!');  
+	  });
+	</script>
+</body>  
 </html>

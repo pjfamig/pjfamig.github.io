@@ -24,22 +24,23 @@ body {
   margin: 30px 0 0;
 }
 
-#language {
+#menu {
   display: inline;
   margin: 0 0 20%;
   color: #6e96d5;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
-.lang_label {
+.nav_label {
   display: inline;
   margin: 0 8px 0 0;
 }
 
-.lang_link {
+.nav_link {
   display: inline;
   margin: 0 8px 0 0;
 }
+
 
 /*
 .active {
@@ -64,7 +65,8 @@ a {
   z-index: 99;    
 }
 
-#thanks {
+
+#confirmation {
 	color: green;
 }
 
