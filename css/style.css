@@ -8,7 +8,7 @@ body {
 
 
 .banner_img {
-  margin-top: 60px;
+  margin-top: 20px;
   max-width: 100%;
   height: auto;
   max-height: 100px;
@@ -57,6 +57,7 @@ a {
 #main {
   position: relative;
   margin: 0 20%;
+  max-width: 420px;
 }
 
 .paper {
@@ -92,4 +93,9 @@ input.submit {
   color: #000000;
   background-color: #F5F5F5
   border-width: 1px 1px 1px 1px;
+}
+
+ul.b {
+  list-style-type: square;
+  padding-left: 30px;
 }
