@@ -57,7 +57,7 @@ a {
 #main {
   position: relative;
   margin: 0 20%;
-  max-width: 420px;
+  max-width: 450px;
 }
 
 .paper {
@@ -67,7 +67,7 @@ a {
 }
 
 
-#confirmation {
+#thanks {
 	color: green;
 }
 
