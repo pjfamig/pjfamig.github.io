@@ -77,6 +77,8 @@ input.textbox {
   color: #000000;
   background-color: #F5F5F5
   border-width: 1px 1px 1px 1px;
+  padding: 3px;
+  
 }
 
 textarea.textbox {
@@ -85,6 +87,8 @@ textarea.textbox {
   color: #000000;
   background-color: #F5F5F5
   border-width: 1px 1px 1px 1px;
+  resize: none;
+  padding: 3px;
 }
 
 input.submit {
