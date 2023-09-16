@@ -1,9 +1,13 @@
 body {
   margin: 40px;
   font-family: "latolight", Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.6em;
   color: #000000;
+}
+
+p {
+	margin: 20px 0px 20px 0px;
 }
 
 
