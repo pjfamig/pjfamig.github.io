@@ -10,7 +10,6 @@ p {
 	margin: 20px 0px 20px 0px;
 }
 
-
 .banner_img {
   margin-top: 20px;
   max-width: 100%;
@@ -100,6 +99,10 @@ input.submit {
   color: #000000;
   background-color: #F5F5F5
   border-width: 1px 1px 1px 1px;
+}
+
+ul {
+	margin-top: 0px;
 }
 
 ul.b {
