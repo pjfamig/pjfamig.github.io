@@ -1,13 +1,52 @@
+/* Base styles */
 body {
   margin: 40px;
-  font-family: "latolight", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  line-height: 1.6em;
+  line-height: 1.5em;
   color: #000000;
 }
 
+/* Layout */
+#main {
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+}
+
+.paper {
+  position: relative;
+  z-index: 99;    
+}
+
+/* Typography */
 p {
-	margin: 20px 0px 20px 0px;
+  margin: 20px 0;
+}
+
+a {
+  color: #000;
+}
+
+/* Lists */
+ul {
+  margin-top: 0;
+}
+
+ul.b {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+/* Images */
+#sig {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove margin from last element */
+#main > *:last-child {
+  margin-bottom: 0;
 }
 
 .banner_img {
@@ -23,89 +62,41 @@ p {
   line-height: 0;
 }
 
-#nav_bar {
-  margin: 30px 0 0;
+/* Section Headings */
+h1 {
+  font-size: 1.875rem;
+  margin: 0;
+  font-weight: bold;
 }
 
-#menu {
-  display: inline;
-  margin: 0 0 20%;
-  color: #6e96d5;
-  padding-bottom: 80px;
+.section-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-.nav_label {
-  display: inline;
-  margin: 0 8px 0 0;
+/* Social Links */
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.nav_link {
-  display: inline;
-  margin: 0 8px 0 0;
+footer h2 {
+  margin: 0;
 }
 
-
-/*
-.active {
-  color: #6e96d5;
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
-a {
-  text-decoration: none;
-  color: #a6c6ee;
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease;
 }
 
-*/
-
-#main {
-  position: relative;
-  margin: auto;
-  max-width: 600px;
-}
-
-.paper {
-  position: relative;
-  z-index: 99;    
-}
-
-
-#thanks {
-	color: green;
-}
-
-input.textbox {
-  font-family: "latolight", Helvetica, sans-serif;
-  font-size: 1em;
-  color: #000000;
-  background-color: #F5F5F5
-  border-width: 1px 1px 1px 1px;
-  padding: 4px;
-  
-}
-
-textarea.textbox {
-  font-family: "latolight", Helvetica, sans-serif;
-  font-size: 1em;
-  color: #000000;
-  background-color: #F5F5F5
-  border-width: 1px 1px 1px 1px;
-  resize: none;
-  padding: 4px;
-}
-
-input.submit {
-  font-family: "latolight", Helvetica, sans-serif;
-  font-size: 1em;
-  color: #000000;
-  background-color: #F5F5F5
-  border-width: 1px 1px 1px 1px;
-}
-
-ul {
-	margin-top: 0px;
-}
-
-ul.b {
-  list-style-type: square;
-  padding-left: 30px;
+.social-icon:hover {
+  opacity: 0.7;
 }
